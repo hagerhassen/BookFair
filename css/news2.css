@@ -1,0 +1,414 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+/* (((((((((((The top Bar))))))))))))) */
+#F{
+  width: 100vw;
+  height: 2.5vw;
+  background-color: #2E2E2E;
+  padding: 0;
+  margin: 0;
+}
+#F #L{
+  color: #A4A4A4;
+  width: 8vw;
+  height: 2.5vw;
+  margin: 0;
+  font-size: 1vw;
+  text-indent: 3vw;
+  float: left;
+  padding-top: 0.5vw;
+}
+#F #I{
+  width: 20vw;
+  height: 2.5vw;
+  display: inline-block;
+}
+.fa {
+  padding: 0.4vw;
+  width: 3vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  height: 2.2vw;
+  border-radius: 50vw;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  margin-left: 1vw;
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/* (((((((((((((((The Logo)))))))))))))) */
+#M{
+  width: 23vw;
+  height: 15vw;
+  float: left;
+  clear: left;
+}
+#LO{
+  color: #08298A;
+  margin: 0;
+  font-family: Berkshire Swash;
+  width: 74vw;
+  height: 15vw;
+  float: right;
+  text-align: left;
+  padding-top: 5vw;
+  font-size: 5vw;
+  right: 0;
+}
+/*  (((((((((((((((((Nav Bar)))))))))))))))))))))) */
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0vw;
+    margin-top: 0;
+    overflow: hidden;
+    background-color: #170B3B;
+    width: 100vw;
+    height: 3.3vw;
+}
+.li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    font-size: 1.15vw;
+    text-align: center;
+    padding: 0.95vw 2vw 0.95vw 1vw;
+    text-decoration: none;
+    margin: 0;
+}
+.li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0B4C5F;
+    transition: 1s;
+}
+.li.dropdown {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.li:last-child{
+  float: right;
+}
+.li:first-child{
+  margin-left: 3vw;
+  background-color: #0B4C5F;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0B4C5F;
+    width: 20vw;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 0.5px solid white;
+    margin: 0;
+}
+.dropdown-content a:hover {
+  background-color: #04B4AE;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* h1 */
+span{
+
+    color: blue;
+
+}
+h1{
+ color: brown;
+ font-size: 90px;
+    text-align: center;
+}
+/* ((((((((((((((((The Body)))))))))))))))) */
+body{
+    background-color:#D4B8B4;
+    height: 1400px;
+    width: 100%;
+}
+/* fotooo */
+img{
+    width: 100%;
+    border-radius: 0%;
+    height: 300px;
+    margin-top: 10px;
+
+}
+/* first div */
+.first {
+    background-color: beige;
+
+}
+.first b{
+    font-family: cursive;
+    font-size: 30px;
+    color: darkblue;
+
+}
+.first p{
+    font-size: 20px;
+    color: crimson;
+    font-style: italic;
+}
+ .a {
+    text-decoration: none;
+    color: darkblue;
+}
+ .a:active{
+    color: black;
+    text-decoration: underline;
+}
+.a:hover{
+    font-size:50px;
+    color: saddlebrown;
+}
+/* second */
+.scond img{
+    margin-top: 20px;
+    width:300px;
+}
+.scond {
+margin-left: 70px;
+
+    height: 550px;
+    width: 300px;
+}
+.scond p{
+    color: darkred;
+    font-size:15px;
+    text-align: justify;
+    font-style: oblique;
+}
+.scond b{
+    color: blue;
+    font-family: cursive;
+    font-size: 20px;
+
+}
+/* third */
+.third {
+    height: 550px;
+    width: 300px;
+    float: right;
+    margin-top:  -510px;
+    margin-right: 460px;
+}
+.third img{
+
+     width:300px;
+
+}
+
+.third b{
+    padding-left: 40px;
+    color: blue;
+    font-size: 20px;
+}
+.third p{
+    color: darkred;
+    font-size:15px;
+    text-align: justify;
+    font-style: oblique;
+}
+/* fourth */
+.fourth {
+    margin-left:1250px;
+    margin-top: -550px;
+
+    width: 250px;
+    height: 650px;
+    background-color:#BEBECC;
+
+}
+.fourth img{
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+
+}
+button{
+    margin: 0;
+    border: 1px solid black;
+    color:black;
+    background-color: rosybrown;
+}
+button:hover{
+    font-size: 20px;
+    color: firebrick;
+}
+/* fifth*/
+.fifth {
+
+    margin-left: 69px;
+    margin-top: -80px;
+    width :800px;
+    height: 400px;
+}
+.fifth img{
+    width: 900px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.fifth b{
+    padding-left: 60px;
+    text-align: justify;
+     color: blue;
+    font-size: 30px;
+}
+
+.fifth p{
+    font-style: oblique;
+    font-size: 20px;
+    color: brown;
+}
+/*comment*/
+label{
+    color: crimson;
+    font-size: 40px;
+}
+/*tt*/
+.TT{margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    margin-left: 1300px;
+}
+.TT a{
+    color: black;
+    font-size: 15px;
+}
+.TT a:active{
+    cursor: pointer;
+    background-color: wheat;
+    font-size: 30px;
+    color:red;
+}
+/* anmi */
+.anmi {
+    margin-right: 20px;
+    overflow: hidden;
+    height: 300px;
+    margin-top: -500px;
+    float: right;
+    width: 300px;
+  box-shadow: 0px 0px 50px pink;
+   border: 1px solid pink;
+    margin-left: 1150px;
+    height: 250px;
+}
+.anmi img {
+
+    width: 100%;
+border-radius: 60px;
+
+    transition: transform 300ms;
+}
+.contnent {
+    transition: transform 3000ms;
+    opacity: 0.6;
+    height: 300px;
+    width: 100%;
+position: relative;
+    background-color: darkgray;
+}
+.anmi:hover .contnent {
+    transform: translateY(-300px)
+}
+.texstarea{
+    color: aliceblue;
+    height: 300px;
+    width: 100%;
+    background-color: hotpink;
+    text-align: center;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+
+.anmi:hover .texstarea{
+    display: block;
+
+}
+.anmi:hover img{transform: scale(2,2) rotate(60deg)}
+#start{
+
+margin-left: 1200px;
+
+
+}
+#start button{
+    font-size: 30px;
+    font-family: sans-serif;
+    height: 50px;
+    width: 200px;
+}
+
+/* (((((((((((((((The Footer))))))))))))))) */
+.footer{
+  background-color: #151515;
+  width: 100vw;
+  height: 30vw;
+  clear: both;
+}
+.T,tr,th,td{
+  margin: 0;
+  border-collapse: collapse;
+}
+.T{
+  width: 90vw;
+  height: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 0;
+}
+.th{
+  font-size: 1.4vw;
+  color: #E6E6E6;
+  text-align: left;
+  padding-top: 4vw;
+  font-family: Berkshire Swash;
+}
+.td{
+  color: white;
+  text-align: left;
+  font-size: 1vw;
+}
+.pre{
+  margin: 0;
+}

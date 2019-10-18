@@ -1,0 +1,41 @@
+.Mbox
+{
+    width: 70%;
+    margin: auto 200px;
+    margin-left: 3vw;
+    color: #484848;
+    height: 1900px;
+    margin-left: 200px;
+}
+.H1
+{
+    color: #75d1e9;
+
+    font-size: 60px;
+}
+.T1
+{
+    font-size: 30px;
+    color: #484848;
+    max-width: 1000px;
+}
+.Mbox .Dl
+{
+  width: 30%;
+  font-size: 30px;
+  height: 90vw;
+  float: left;
+    margin: 10px;
+}
+.Dl span
+{
+    font-size:20px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+}

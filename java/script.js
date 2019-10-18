@@ -1,0 +1,46 @@
+$(document).ready(function(){
+    $("#B1").click(function(){
+        $("#F1").slideToggle(1000);
+    });
+});
+$(document).ready(function(){
+    $("#B2").click(function(){
+        $("#F2").slideToggle(1000);
+    });
+});
+$(document).ready(function(){
+    $("#B3").click(function(){
+        $("#F3").slideToggle(1000);
+    });
+});
+$(document).ready(function(){
+    $("#B4").click(function(){
+        $("#F4").slideToggle(1000);
+    });
+});
+$(document).ready(function(){
+    $("#B5").click(function(){
+        $("#F5").slideToggle(1000);
+    });
+});
+$(document).ready(function(){
+    $("#B6").click(function(){
+        $("#F6").slideToggle(1000);
+    });
+});
+
+$(document).ready(function(){
+    $("#B8").click(function(){
+        $("#F8").slideToggle(1000);
+    });
+});
+$(document).ready(function(){
+    $("#B9").click(function(){
+        $("#F9").slideToggle(1000);
+    });
+});
+$(document).ready(function(){
+    $("#B10").click(function(){
+        $("#F10").slideToggle(1000);
+    });
+});

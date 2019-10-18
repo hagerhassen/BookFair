@@ -1,0 +1,381 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+/* (((((((((((The top Bar))))))))))))) */
+#F{
+  width: 100vw;
+  height: 2.5vw;
+  background-color: #2E2E2E;
+  padding: 0;
+  margin: 0;
+}
+#F #L{
+  color: #A4A4A4;
+  width: 8vw;
+  height: 2.5vw;
+  margin: 0;
+  font-size: 1vw;
+  text-indent: 3vw;
+  float: left;
+  padding-top: 0.5vw;
+}
+#F #I{
+  width: 20vw;
+  height: 2.5vw;
+  display: inline-block;
+}
+.fa {
+  padding: 0.4vw;
+  width: 3vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw;
+  height: 2.2vw;
+  border-radius: 50vw;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  margin-left: 1vw;
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/* (((((((((((((((The Logo)))))))))))))) */
+#M{
+  width: 23vw;
+  height: 15vw;
+  float: left;
+  clear: left;
+}
+#LO{
+  color: #08298A;
+  margin: 0;
+  font-family: Berkshire Swash;
+  width: 74vw;
+  height: 15vw;
+  float: right;
+  text-align: left;
+  padding-top: 5vw;
+  font-size: 5vw;
+  right: 0;
+}
+/*  (((((((((((((((((Nav Bar)))))))))))))))))))))) */
+.ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0vw;
+    margin-top: 0;
+    overflow: hidden;
+    background-color: #170B3B;
+    width: 100vw;
+    height: 3.3vw;
+}
+.li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    font-size: 1.15vw;
+    text-align: center;
+    padding: 0.95vw 2vw 0.95vw 1vw;
+    text-decoration: none;
+    margin: 0;
+}
+.li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0B4C5F;
+    transition: 1s;
+}
+.li.dropdown {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.li:last-child{
+  float: right;
+}
+.li:first-child{
+  margin-left: 3vw;
+  background-color: #0B4C5F;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0B4C5F;
+    width: 20vw;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 0.5px solid white;
+    margin: 0;
+}
+.dropdown-content a:hover {
+  background-color: #04B4AE;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* ((((((((((((((((The Body)))))))))))))))) */
+body{
+
+    background-color: darkgrey;
+}
+.jq{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    color: white;
+background-color:deeppink;
+    cursor: pointer;
+   margin-left: 900px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.first{
+    margin-left: 500px;
+ height: 800px;
+    width: 63%;
+   margin-bottom: -10vw;
+}
+.first img {
+    margin-bottom: -160px;
+    margin-left: 770px;
+    height: 150px;
+    width: 150px;
+}
+.first p{
+    direction: rtl;
+    text-align: justify;
+    padding-right: 200px;
+   font-size: 20px;
+    padding-right: 200px;
+
+}
+.first h2{
+    padding-right: 220px;
+ direction: rtl;
+    font-family: cursive;
+    color: firebrick;
+
+
+}
+/* h3 */
+h3{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+
+    color: black;
+    background-color: white;
+    font-family: fantasy;
+    font-weight: normal;
+    border-bottom: 2px;
+    border-top: 2px;
+    transform: translate(0, 100%);
+    transition: .4s;
+}
+.p1{
+    overflow: hidden;
+      position: relative;
+    border: 1px solid #DADEE8;
+
+}
+.p1:hover h3{
+    transform: translate(0, 0);
+}
+.p1 img{
+
+    transition: .4s;
+}
+.p1:hover img{
+    opacity: .2;
+}
+
+.p2{
+       overflow: hidden;
+      position: relative;
+  border: 1px solid #DADEE8;
+
+}
+.p2:hover h3{
+    transform: translate(0, 0);
+}
+.p2 img{
+
+    transition: .4s;
+}
+.p2:hover img{
+    opacity: .2;
+}
+
+.p3{
+
+       overflow: hidden;
+      position: relative;
+        border: 1px solid #DADEE8;
+}
+.p3:hover h3{
+    transform: translate(0, 0);
+}
+.p3 img{
+
+    transition: .4s;
+}
+.p3:hover img{
+    opacity: .2;
+}
+.p4{
+       overflow: hidden;
+      position: relative;
+        border: 1px solid #DADEE8;
+
+}
+.p4:hover h3{
+    transform: translate(0, 0);
+}
+.p4 img{
+
+    transition: .4s;
+}
+.p4:hover img{
+    opacity: .2;
+}
+.buttons{
+    margin-top: 200px;
+    margin-left: 950px;
+    cursor: pointer;
+
+}
+button{
+    cursor: pointer;
+
+}
+ a{
+    text-decoration: none;
+}
+
+/* scond */
+.scand {
+    margin-left: 10px;
+    text-align: justify;
+    direction: rtl;
+    margin-top: -700px;
+    clear: right;
+    float: left;
+    height: 1030px;
+    width: 300px;
+    background-color: #7E878C;
+    border-style: dotted black;
+}
+.scand b{
+    padding-left: 20px;
+    color: firebrick;
+    font-size: 20px;
+}
+.r{
+    font-size: 15px;
+    font-family: cursive;
+    color: firebrick;
+
+    text-align: justify;
+
+}
+.b{
+    font-size: 15px;
+    font-family: cursive;
+    color: black;
+
+    text-align: justify;
+}
+.d{
+font-size: 25px;
+    margin-right: 50px;
+}
+#rr{
+    height: 100px;
+    width: 300px;
+    margin-left: 700px;
+}
+#rr button{
+    margin-top: 80px;
+    font-size: 20px;
+    border: 1px solid pink;
+    text-decoration: none;
+    color: white;
+    background-color: deeppink;
+}
+#rr button:active{
+    font-family: cursive;
+    font-size: 20px;
+
+    color: firebrick;
+    background-color: cadetblue;
+}
+#rr button:hover{text-decoration: none;
+    text-decoration: none;
+    color: firebrick;
+    background-color: dimgrey;
+}
+/* (((((((((((((((The Footer))))))))))))))) */
+.footer{
+  background-color: #151515;
+  width: 100vw;
+  height: 30vw;
+  clear: both;
+}
+.T,tr,th,td{
+  margin: 0;
+  border-collapse: collapse;
+}
+.T{
+  width: 90vw;
+  height: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 0;
+}
+.th{
+  font-size: 1.4vw;
+  color: #E6E6E6;
+  text-align: left;
+  padding-top: 4vw;
+  font-family: Berkshire Swash;
+}
+.td{
+  color: white;
+  text-align: left;
+  font-size: 1vw;
+}
+.pre{
+  margin: 0;
+}

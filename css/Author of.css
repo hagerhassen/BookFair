@@ -1,0 +1,80 @@
+.General
+{
+    margin: 0;
+    margin-left: 150px;
+    font-family: 'Raleway', sans-serif;
+    height: 2400px;
+    widows: 1000px
+
+}
+.General p
+{
+    max-width: 1140px;
+    font-size: 20px; color: #555454;
+
+}
+.General a
+{
+    text-decoration: none;
+    color: #3381C0
+}
+.B1
+{
+    width: 32%;
+    height: 750px;
+    color: #4B4E9C;
+    float: left;
+
+}
+.a{
+    width: 383px;
+    height: 400px;
+}
+
+.h2
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.B2
+{
+    margin-left: 25px;
+
+}
+.B3
+{
+    margin-left: 25px;
+
+}
+.B5
+{
+    float: left;
+    margin-top: 100px;
+    width: 50%;
+        color: #4B4E9C;
+
+}
+.B5 img
+{
+    width: 100%;
+    padding: 10px;
+}
+.B6
+{
+    float: right;
+    margin-top: 100px;
+    width: 50%;
+            color: #4B4E9C;
+
+
+}
+.B6 h2
+{
+
+}
+.B6 img
+{
+    width: 100%;
+    padding: 10px;
+
+}

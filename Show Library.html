@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Show Library </title>
+  <link rel="stylesheet" type="text/css" href="css\head.css">
+  <link rel="stylesheet" type="text/css" href="css\Show Library.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css\font-awesome-4.7.0\css\font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css\font-awesome-4.7.0\css\font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css\berkshire-swash.css">
+  <script src="java\Book.js"></script>
+</head>
+<!---(((((((((((((((((((First Bar))))))))))))))))))--->
+<div id="F">
+  <div id="L">Follow Us :</div>
+  <div id="I">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-linkedin"></a>
+    <a href="#" class="fa fa-youtube"></a>
+  </div>
+</div>
+<!--   (((((((((((((((The logo)))))))))))))))) -->
+<a href="index.html" class="active">
+  <img id="M" src="images\logo1.png" alt="Bookfair Logo">
+</a>
+<h1 id="LO"><i>Welcome To Our Bookfairs</i></h1>
+<!-- ((((((((((The Navigation Bar)))))))))))))) -->
+<ul class="ul">
+  <li class="li">
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown li">
+    <a href="about.html" class="dropbtn">About Bookfairs</a>
+    <div class="dropdown-content">
+      <a href="word.html">Presidents' Word</a>
+      <a href="authors.html">Authors</a>
+      <a href="Advisory Boards & Steering Committees.html">Advisory Boards & Steering</a>
+      <a href="Podcast _ Webcasts.html">Podcast webcasts</a>
+    </div>
+  </li>
+  <li class="dropdown li">
+    <a href="Visiting.html" class="dropbtn">Visit</a>
+    <div class="dropdown-content">
+      <a href="who attends.html">Who attends</a>
+      <a href="Dateofwork.html">Openings Time & Dates</a>
+      <a href="Exh-ibit.html">Exhibitors</a>
+      <a href="children's & YA.html">children's & YA</a>
+    </div>
+  </li>
+  <li class="dropdown li">
+    <a href="#" class="dropbtn">What's on?</a>
+    <div class="dropdown-content">
+      <a href="Awards.html">Awards</a>
+      <a href="conference.html">Conferences</a>
+      <a href="seminer.html">Seminars</a>
+      <a href="focus.html">Market Focus</a>
+      <a href="Author of the day.html">Authors of the day</a>
+      <a href="intreviews.html">Interviews</a>
+      <a href="Academic & Scholarly Publishing.html">
+        Academic & Scholarly Publishing</a>
+    </div>
+  </li>
+  <li class="dropdown li">
+    <a href="Show Library.html" class="dropbtn">Electronic Bookfair</a>
+    <div class="dropdown-content">
+      <a href="buyform.html">Buy Books</a>
+    </div>
+  </li>
+  <li class="dropdown li">
+    <a href="News.html">News</a>
+    <div class="dropdown-content">
+      <a href="news2.html">New York Review</a>
+      <a href="news3.html">Cairo news</a>
+    </div>
+  </li>
+  <li class="dropdown li">
+    <a href="loginform.html" class="dropbtn">Log in</a>
+  </li>
+</ul>
+  <!-- ((((((((((((((((The Content)))))))))))))))) -->
+    <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div style="background-color: #170B3B;" class="mySlides">
+    <div class="numbertext">1 / 6</div>
+   <center>    <img src="images/B1.png" style="width:50% ;height: 300px;"></center>
+  </div>
+
+  <div style="background-color: #170B3B;" class="mySlides">
+    <div class="numbertext">2 / 6</div>
+     <center>  <img src="images/B2.png" style="width:50%;height: 300px;"></center>
+  </div>
+
+  <div style="background-color: #170B3B;" class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <center> <img src="images/B3.png" style="width:50%;height: 300px;"></center>
+  </div>
+
+  <div style="background-color: #170B3B;" class="mySlides">
+    <div class="numbertext">4 / 6</div>
+     <center>  <img src="images/B4.png" style="width:50%;height: 300px;"></center>
+  </div>
+
+  <div style="background-color: #170B3B;" class="mySlides">
+    <div class="numbertext">5 / 6</div>
+     <center> <img src="images/B5.png" style="width:50%;height: 300px;"></center>
+  </div>
+
+  <div style="background-color: #170B3B;" class="mySlides">
+    <div class="numbertext">6 / 6</div>
+     <center> <img src="images/B11.png" style="width:40%;height: 300px;"></center>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/B1.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/B2.png" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/B3.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/B4.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/B5.png" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/B11.png" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<!-- Books -->
+        <center><h1 class="Ti"> Online Library</h1></center>
+        <div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" class="Size" src="images/B1.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a href="https://docs.google.com/viewerng/viewer?url=http://books-library.online/download-pdf-ebooks.org-ku-16995.pdf&hl=ar" target="_blank">See More</a></center>
+        </div>
+        <div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" class="Size" src="images/B2.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/4580-free-book
+">See More</a></center>
+        </div>
+        <div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B3.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/3596-free-book
+">See More</a></center>
+        </div><div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B4.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/1723-free-book
+">See More</a></center>
+        </div><div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B5.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/12544-free-book
+">See More</a></center>
+        </div><div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B6.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/4882-free-book
+">See More</a></center>
+        </div><div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B7.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/2643-free-book
+">See More</a></center>
+        </div><div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B8.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/2450-free-book
+">See More</a></center>
+        </div><div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B9.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/540-free-book
+">See More</a></center>
+        </div><div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B10.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/959-free-book
+">See More</a></center>
+        </div><div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B11.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/13590-free-book
+">See More</a></center>
+        </div>
+        <div class="Book">
+          <center>  <img style="width: 212px;height: 300px;" src="images/B12.png"></center>
+                <center> <a href="#">Buy</a>&nbsp;<a target="_blank" href="https://download-internet-pdf-ebooks.com/511-free-book
+">See More</a></center>
+        </div>
+              <center>  <div class="">
+        <button class="btn info F1">Prev</button>
+        <button class="btn info">3</button>
+        <button class="btn info">2</button>
+        <button class="btn info">1</button>
+        <button class="btn info">Next</button>
+        </div></center>
+
+
+
+    </div>
+    <!-- ((((((((((((((((((((The Footer)))))))))))))))))))) -->
+    <div class="footer">
+        <table class="T">
+          <tr class="tr">
+            <th class="th"><b><i>Show Dates</i></b></th>
+            <th class="th"><b><i>Our Location</i></b></th>
+            <th class="th"><b><i>Useful Links</i></b></th>
+            <th class="th"><b><i>Contact Us</i></b></th>
+          </tr>
+          <tr class="tr">
+            <td class="td">
+              <pre style="margin-top:2vw;" class="pre">Cairo Bookfair Dates.
+
+  London Bookfair Dates.
+
+  Dubai Bookfair Dates.
+
+  Others.</pre></td>
+            <td class="td">
+              See Our Bookfairs Location here.
+            </td>
+            <td class="td">
+              <pre style="margin-top:3.3vw;" class="pre">Important News.
+
+  Contact Us.
+
+  Log in.
+
+  Download Our App.
+              </pre>
+            </td>
+            <td class="td">
+              Mobile : +2001120549690 or +2001552525704
+              <br><br><b>or</b><br><br>
+              Gmail : <a href="#">hazzem199920004@gmail.com</a>
+            </td>
+          </tr>
+        </table>
+    </div>
+  </body>
+  </html>

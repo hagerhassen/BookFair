@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#js").hide();
+        $("#show").show();
+    });
+    $("#show").click(function(){
+        $("#js").show();
+        $("#show").hide();
+    });
+});
